@@ -2,7 +2,7 @@
 
 const path = require("path");
 const express = require("express");
-const expressLayouts = require("express-ejs-layouts");
+// const expressLayouts = require("express-ejs-layouts");
 
 const app = express();
 const port = 5000;
@@ -15,8 +15,8 @@ app.use(express.static("public"));
 // Default layout is the frontend.ejs file
 // Other templates below will use different layouts, specified in the route
 
-app.use(expressLayouts);
-app.set("layout", "./layouts/frontend.ejs");
+// app.use(expressLayouts);
+// app.set("layout", "./layouts/frontend.ejs");
 app.set("view engine", "ejs");
 
 // Routes... Add future pages here
