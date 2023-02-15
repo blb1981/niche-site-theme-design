@@ -11727,4 +11727,8 @@ textarea.form-control-lg {
 }
 .footer-widget li a {
   display: block;
+}
+
+.category-buttons a {
+  padding: 0.125rem 0.5rem;
 }/*# sourceMappingURL=style.css.map */

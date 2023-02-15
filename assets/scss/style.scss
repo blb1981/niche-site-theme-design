@@ -10,9 +10,15 @@ $primary: #1b2c81;
         
         a {
             display: block;
-        } 
+        }
     }
 }
 
 // Leaderboard ad container at top of page
 // .lbad-container {}
+
+.category-buttons {
+    a {
+        padding: .125rem 0.5rem;
+    }
+}

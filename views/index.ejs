@@ -2,7 +2,37 @@
 <%- include('./partials/header.ejs') %>
 
 <div class="container">
-  <h1>Home Page</h1>
+  <div class="row">
+    <!-- Content -->
+    <div class="col-md-8">
+      <!-- prettier-ignore -->
+      <%- include('./partials/post-preview.ejs') %>
+      <%- include('./partials/post-preview.ejs') %>
+      <%- include('./partials/post-preview.ejs') %>
+      <%- include('./partials/post-preview.ejs') %>
+      <%- include('./partials/post-preview.ejs') %>
+
+      <!-- Pagination -->
+      <div class="text-center">
+        <div class="btn-group mb-4" role="group">
+          <a href="#" class="btn btn-primary active">1</a>
+          <a href="#" class="btn btn-primary">2</a>
+          <a href="#" class="btn btn-primary">3</a>
+          <a href="#" class="btn btn-primary">4</a>
+          <a href="#" class="btn btn-primary">Older Posts >></a>
+        </div>
+      </div>
+      <!-- End Pagination -->
+    </div>
+
+    <!-- End Content -->
+
+    <!-- Sidebar -->
+    <div class="col-md-4">
+      <h3>Sidebar</h3>
+    </div>
+    <!-- End Sidebar -->
+  </div>
 </div>
 
 <!-- prettier-ignore -->
