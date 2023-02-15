@@ -1,4 +1,4 @@
-$primary: #1b2c81;
+$primary: #027046;
 
 
 // @import '../../node_modules/bootstrap-icons/font/bootstrap-icons.scss';
@@ -19,6 +19,24 @@ $primary: #1b2c81;
 
 .category-buttons {
     a {
-        padding: .125rem 0.5rem;
+        padding: 0.25em;
+        font-size: .75rem;
     }
 }
+
+// Post preview image for home page
+.post-preview-image {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+@include media-breakpoint-down(sm) {
+    .post-preview-image {
+        height: 14rem;
+    }
+}
+
+// .post-preview-headline-link {
+//     text-decoration: none;
+// }
