@@ -23,11 +23,15 @@ app.set("view engine", "ejs");
 // Frontend pages
 
 const details = {
-  siteName: 'Pilot Headquarters'
-}
+  siteName: "Pilot Headquarters",
+};
 
 app.get("", (req, res) => {
   res.render("index", { title: "Home Page", ...details });
+});
+
+app.get("/single", (req, res) => {
+  res.render("single", { title: "Single Post", ...details });
 });
 
 // Server
